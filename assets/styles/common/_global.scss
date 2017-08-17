@@ -1,0 +1,81 @@
+body{
+  font-family: 'Josefin Sans';
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container{
+  width: 970px;
+}
+
+.section{
+  padding: 70px 0px;
+  height: 100%;
+}
+
+
+// Background Colors
+.white{
+  background-color: white;
+}
+.brand-primary{
+  background-color: $swirl;
+}
+
+.brand-secondary{
+  background-color: #F4F5F1;
+}
+
+.header{
+  &-large{
+    color: rgba(16, 12, 11, 0.6);
+    font-size: $large;
+    text-align: center;
+  }
+  &-medium{
+    padding: 50px 0px;
+    color: #696664;
+    font-size: $medium;
+    text-align: center;
+  }
+}
+
+.paragraph{
+  font-size: $paragraph;
+  padding-top: 30px 0px;
+  color: black;
+  text-align: center;
+}
+
+.padding{
+  &-top{
+    &-xl{
+      padding-top: 70px;
+    }
+    &-large{
+      padding-top: 50px;
+    }
+    &-medium{
+      padding-top: 30px;
+    }
+    &-small{
+      padding-top: 15px;
+    }
+  }
+  &-bottom{
+    &-xl{
+      padding-bottom: 70px;
+    }
+    &-large{
+      padding-bottom: 50px;
+    }
+    &-medium{
+      padding-bottom: 30px;
+    }
+    &-small{
+      padding-bottom: 15px;
+    }
+  }
+}
